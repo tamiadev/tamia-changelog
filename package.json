@@ -1,0 +1,59 @@
+{
+  "name": "tamia-changelog",
+  "version": "1.0.0",
+  "description": "Change log draft generator",
+  "author": {
+    "name": "Artem Sapegin",
+    "url": "http://sapegin.me"
+  },
+  "homepage": "https://github.com/sapegin/tamia-changelog",
+  "repository": "sapegin/tamia-changelog",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "writer-opts.js"
+  ],
+  "bin": "index.js",
+  "scripts": {
+    "lint": "eslint . --cache --fix",
+    "pretest": "npm run lint",
+    "format": "prettier --write '**/*.{js,md}'",
+    "posttest": "npm run format",
+    "precommit": "lint-staged"
+  },
+  "keywords": [
+    "tamia",
+    "semantic-release",
+    "changelog",
+    "change log"
+  ],
+  "devDependencies": {
+    "eslint": "^4.14.0",
+    "eslint-config-tamia": "^5.0.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^6.0.0",
+    "prettier": "^1.9.2"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "commits-between": "^0.2.0",
+    "conventional-changelog-writer": "^2.0.3",
+    "conventional-commits-parser": "^2.1.0",
+    "get-pkg-repo": "^2.0.0",
+    "git-latest-semver-tag": "^1.0.2",
+    "opn": "^5.1.0",
+    "semantic-release-tamia": "^1.1.1",
+    "shell-escape": "^0.2.0",
+    "through2": "^2.0.3"
+  }
+}
