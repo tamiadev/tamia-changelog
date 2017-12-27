@@ -1,6 +1,6 @@
 # tamia-changelog
 
-[![Build Status](https://travis-ci.org/sapegin/tamia-changelog.svg)](https://travis-ci.org/sapegin/tamia-changelog)
+[![Build Status](https://travis-ci.org/tamiadev/tamia-changelog.svg)](https://travis-ci.org/tamiadev/tamia-changelog)
 
 Change log draft generator. Should be used with [semantic-release-tamia](https://github.com/tamiadev/semantic-release-tamia).
 
@@ -22,7 +22,7 @@ To commit change log run `tamia-changelog commit`. It will make a commit without
 
 ## Change log
 
-The change log can be found on the [Releases page](https://github.com/sapegin/tamia-changelog/releases).
+The change log can be found on the [Releases page](https://github.com/tamiadev/tamia-changelog/releases).
 
 ## Contributing
 
@@ -30,6 +30,6 @@ Everyone is welcome to contribute. Please take a moment to review the [contribut
 
 ## Authors and license
 
-[Artem Sapegin](http://sapegin.me) and [contributors](https://github.com/sapegin/tamia-changelog/graphs/contributors).
+[Artem Sapegin](http://sapegin.me) and [contributors](https://github.com/tamiadev/tamia-changelog/graphs/contributors).
 
 MIT License, see the included [License.md](License.md) file.

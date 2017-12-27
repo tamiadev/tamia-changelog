@@ -6,8 +6,8 @@
     "name": "Artem Sapegin",
     "url": "http://sapegin.me"
   },
-  "homepage": "https://github.com/sapegin/tamia-changelog",
-  "repository": "sapegin/tamia-changelog",
+  "homepage": "https://github.com/tamiadev/tamia-changelog",
+  "repository": "tamiadev/tamia-changelog",
   "license": "MIT",
   "engines": {
     "node": ">=8"
