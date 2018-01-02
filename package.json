@@ -1,6 +1,6 @@
 {
   "name": "tamia-changelog",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Change log draft generator",
   "author": {
     "name": "Artem Sapegin",
@@ -14,6 +14,7 @@
   },
   "main": "index.js",
   "files": [
+    "templates",
     "index.js",
     "writer-opts.js"
   ],
