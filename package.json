@@ -33,11 +33,11 @@
     "change log"
   ],
   "devDependencies": {
-    "eslint": "^4.14.0",
+    "eslint": "^4.15.0",
     "eslint-config-tamia": "^5.0.0",
     "husky": "^0.14.3",
     "lint-staged": "^6.0.0",
-    "prettier": "^1.9.2"
+    "prettier": "^1.10.2"
   },
   "lint-staged": {
     "*.js": [
@@ -52,8 +52,8 @@
     "conventional-commits-parser": "^2.1.0",
     "get-pkg-repo": "^2.0.0",
     "git-latest-semver-tag": "^1.0.2",
-    "opn": "^5.1.0",
-    "semantic-release-tamia": "^1.1.1",
+    "opn": "^5.2.0",
+    "semantic-release-tamia": "^2.0.1",
     "shell-escape": "^0.2.0",
     "through2": "^2.0.3"
   }
