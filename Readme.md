@@ -2,23 +2,15 @@
 
 [![Build Status](https://travis-ci.org/tamiadev/tamia-changelog.svg)](https://travis-ci.org/tamiadev/tamia-changelog)
 
-Change log draft generator. Should be used with [semantic-release-tamia](https://github.com/tamiadev/semantic-release-tamia).
-
-## Installation
-
-```
-npm install --save-dev tamia-changelog
-```
+Change log draft generator for [semantic-release-tamia](https://github.com/tamiadev/semantic-release-tamia).
 
 ## Release process
 
-To release a new version, you'll need to create a commit with `Changelog` type.
+1. Generate a change log draft by runnig `npx tamia-changelog`. It will create a file with all _important_ commits for the release grouped by type (breaking changes, new features and bugfixes) and open it in your default editor.
 
-To generate change log draft run `tamia-changelog`. It will create a file with all important commits for the release grouped by type (breaking changes, new features and bugfixes) and open it in your default editor.
+2. Rewrite your change log to make it valuable for your users.
 
-Now you can rewrite your change log to make it valuable for your users.
-
-To commit change log run `tamia-changelog commit`. It will make a commit without changes (`git commit --allow-empty`) of type Changelog and change log in commit message body.
+3. Commit the change log by running `npx tamia-changelog commit`. It will make a commit without changes (`git commit --allow-empty`) of type Changelog and change log in commit message body.
 
 ## Change log
 
